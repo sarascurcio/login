@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* Fundo escuro */
+    color: #000000; /* Texto branco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 20px;
+}
+
+
+form {
+    background-color: #a42bd4; /* Verde do Spotify */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #cc82f7; /* Fundo dos inputs */
+    color: #ffffff; /* Texto dos inputs */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border: 2px solid #5f0fc9; /* Borda verde ao focar */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #69f79a; /* Verde do Spotify */
+    color: #ffffff; /* Texto branco */
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Espaço entre os botões */
+}
+
+button:hover {
+    background-color: #1aa34a; /* Verde mais escuro ao passar o mouse */
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+}
+a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #1db954; /* Cor verde do Spotify */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+
+a:hover {
+    color: #1aa34a; /* Cor mais escura ao passar o mouse */
+}
